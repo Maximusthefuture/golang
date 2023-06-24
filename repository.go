@@ -13,7 +13,7 @@ type ProductRepository interface {
 }
 
 type ProductRepositoryImpl struct {
-	//aqqq11111qqqqvvvvv
+	//aqqq11111qqqq
 }
 
 func Save(product Product) {
