@@ -3,7 +3,7 @@ package main
 type TaskRepository interface {
 	Save(task Task)
 	Update(task Task, id string)
-	Delete(task Task)
+	Delete(task Task) //
 }
 
 type ProductRepository interface {
