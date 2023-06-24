@@ -14,6 +14,7 @@ type ProductRepository interface {
 
 type ProductRepositoryImpl struct {
 	//111ffff
+	///qqqq
 }
 
 func Save(product Product) {
