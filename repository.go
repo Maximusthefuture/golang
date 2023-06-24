@@ -9,7 +9,7 @@ type TaskRepository interface {
 type ProductRepository interface {
 	Save(product Product)
 	Update(product Product, id string)
-	Delete(product Product)
+	Delete(product Product) //
 }
 
 type ProductRepositoryImpl struct {
