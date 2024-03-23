@@ -24,6 +24,9 @@ jobs:
     - name: Build
       run: go build -v main.go
       
+    - name: Export
+      run: export BOT_TOKEN=${{ secrets.BOT_TOKEN }}
+      
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.7
       with:
