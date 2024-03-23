@@ -32,6 +32,6 @@ jobs:
       with:
         host: ssh-testing.alwaysdata.net
         username: testing_test
-        password: Root_32
+        password: ${{ secrets.pasword }}
         source: "main"
         target: ~/
